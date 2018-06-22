@@ -1,0 +1,652 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FACB339E20DC69D600CE2D9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACB339D20DC69D600CE2D9A /* AppDelegate.swift */; };
+		FACB33A020DC69D600CE2D9A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACB339F20DC69D600CE2D9A /* ViewController.swift */; };
+		FACB33A320DC69D600CE2D9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FACB33A120DC69D600CE2D9A /* Main.storyboard */; };
+		FACB33A520DC69D800CE2D9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FACB33A420DC69D800CE2D9A /* Assets.xcassets */; };
+		FACB33A820DC69D800CE2D9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FACB33A620DC69D800CE2D9A /* LaunchScreen.storyboard */; };
+		FACB33B320DC69D800CE2D9A /* glukloaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACB33B220DC69D800CE2D9A /* glukloaderTests.swift */; };
+		FACB33BE20DC69D800CE2D9A /* glukloaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACB33BD20DC69D800CE2D9A /* glukloaderUITests.swift */; };
+		FACB33CD20DC6A6E00CE2D9A /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FACB33CC20DC6A6E00CE2D9A /* HealthKit.framework */; };
+		FACB33D620DC780400CE2D9A /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FACB33D520DC780400CE2D9A /* SwiftyJSON.framework */; };
+		FACB33D720DC780400CE2D9A /* SwiftyJSON.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FACB33D520DC780400CE2D9A /* SwiftyJSON.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FACB33DA20DC780D00CE2D9A /* OAuth2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FACB33D920DC780D00CE2D9A /* OAuth2.framework */; };
+		FACB33DB20DC780D00CE2D9A /* OAuth2.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FACB33D920DC780D00CE2D9A /* OAuth2.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FACB33DD20DC781D00CE2D9A /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FACB33DC20DC781D00CE2D9A /* Alamofire.framework */; };
+		FACB33DE20DC781D00CE2D9A /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FACB33DC20DC781D00CE2D9A /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FACB33AF20DC69D800CE2D9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FACB339220DC69D600CE2D9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FACB339920DC69D600CE2D9A;
+			remoteInfo = glukloader;
+		};
+		FACB33BA20DC69D800CE2D9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FACB339220DC69D600CE2D9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FACB339920DC69D600CE2D9A;
+			remoteInfo = glukloader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FACB33D820DC780400CE2D9A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				FACB33D720DC780400CE2D9A /* SwiftyJSON.framework in Embed Frameworks */,
+				FACB33DE20DC781D00CE2D9A /* Alamofire.framework in Embed Frameworks */,
+				FACB33DB20DC780D00CE2D9A /* OAuth2.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FACB339A20DC69D600CE2D9A /* glukloader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = glukloader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FACB339D20DC69D600CE2D9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FACB339F20DC69D600CE2D9A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FACB33A220DC69D600CE2D9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FACB33A420DC69D800CE2D9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FACB33A720DC69D800CE2D9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FACB33A920DC69D800CE2D9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FACB33AE20DC69D800CE2D9A /* glukloaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = glukloaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FACB33B220DC69D800CE2D9A /* glukloaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = glukloaderTests.swift; sourceTree = "<group>"; };
+		FACB33B420DC69D800CE2D9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FACB33B920DC69D800CE2D9A /* glukloaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = glukloaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FACB33BD20DC69D800CE2D9A /* glukloaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = glukloaderUITests.swift; sourceTree = "<group>"; };
+		FACB33BF20DC69D800CE2D9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FACB33CC20DC6A6E00CE2D9A /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		FACB33CE20DC6A6E00CE2D9A /* glukloader.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = glukloader.entitlements; sourceTree = "<group>"; };
+		FACB33CF20DC776C00CE2D9A /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		FACB33D120DC776F00CE2D9A /* OAuth2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OAuth2.framework; path = Carthage/Build/iOS/OAuth2.framework; sourceTree = "<group>"; };
+		FACB33D320DC777300CE2D9A /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/iOS/SwiftyJSON.framework; sourceTree = "<group>"; };
+		FACB33D520DC780400CE2D9A /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/iOS/SwiftyJSON.framework; sourceTree = "<group>"; };
+		FACB33D920DC780D00CE2D9A /* OAuth2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OAuth2.framework; path = Carthage/Build/iOS/OAuth2.framework; sourceTree = "<group>"; };
+		FACB33DC20DC781D00CE2D9A /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FACB339720DC69D600CE2D9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FACB33D620DC780400CE2D9A /* SwiftyJSON.framework in Frameworks */,
+				FACB33DA20DC780D00CE2D9A /* OAuth2.framework in Frameworks */,
+				FACB33CD20DC6A6E00CE2D9A /* HealthKit.framework in Frameworks */,
+				FACB33DD20DC781D00CE2D9A /* Alamofire.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FACB33AB20DC69D800CE2D9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FACB33B620DC69D800CE2D9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FACB339120DC69D600CE2D9A = {
+			isa = PBXGroup;
+			children = (
+				FACB33DC20DC781D00CE2D9A /* Alamofire.framework */,
+				FACB33D920DC780D00CE2D9A /* OAuth2.framework */,
+				FACB33D520DC780400CE2D9A /* SwiftyJSON.framework */,
+				FACB339C20DC69D600CE2D9A /* glukloader */,
+				FACB33B120DC69D800CE2D9A /* glukloaderTests */,
+				FACB33BC20DC69D800CE2D9A /* glukloaderUITests */,
+				FACB339B20DC69D600CE2D9A /* Products */,
+				FACB33CB20DC6A6E00CE2D9A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FACB339B20DC69D600CE2D9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FACB339A20DC69D600CE2D9A /* glukloader.app */,
+				FACB33AE20DC69D800CE2D9A /* glukloaderTests.xctest */,
+				FACB33B920DC69D800CE2D9A /* glukloaderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FACB339C20DC69D600CE2D9A /* glukloader */ = {
+			isa = PBXGroup;
+			children = (
+				FACB33CE20DC6A6E00CE2D9A /* glukloader.entitlements */,
+				FACB339D20DC69D600CE2D9A /* AppDelegate.swift */,
+				FACB339F20DC69D600CE2D9A /* ViewController.swift */,
+				FACB33A120DC69D600CE2D9A /* Main.storyboard */,
+				FACB33A420DC69D800CE2D9A /* Assets.xcassets */,
+				FACB33A620DC69D800CE2D9A /* LaunchScreen.storyboard */,
+				FACB33A920DC69D800CE2D9A /* Info.plist */,
+			);
+			path = glukloader;
+			sourceTree = "<group>";
+		};
+		FACB33B120DC69D800CE2D9A /* glukloaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				FACB33B220DC69D800CE2D9A /* glukloaderTests.swift */,
+				FACB33B420DC69D800CE2D9A /* Info.plist */,
+			);
+			path = glukloaderTests;
+			sourceTree = "<group>";
+		};
+		FACB33BC20DC69D800CE2D9A /* glukloaderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FACB33BD20DC69D800CE2D9A /* glukloaderUITests.swift */,
+				FACB33BF20DC69D800CE2D9A /* Info.plist */,
+			);
+			path = glukloaderUITests;
+			sourceTree = "<group>";
+		};
+		FACB33CB20DC6A6E00CE2D9A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FACB33D320DC777300CE2D9A /* SwiftyJSON.framework */,
+				FACB33D120DC776F00CE2D9A /* OAuth2.framework */,
+				FACB33CF20DC776C00CE2D9A /* Alamofire.framework */,
+				FACB33CC20DC6A6E00CE2D9A /* HealthKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FACB339920DC69D600CE2D9A /* glukloader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FACB33C220DC69D800CE2D9A /* Build configuration list for PBXNativeTarget "glukloader" */;
+			buildPhases = (
+				FACB339620DC69D600CE2D9A /* Sources */,
+				FACB339720DC69D600CE2D9A /* Frameworks */,
+				FACB339820DC69D600CE2D9A /* Resources */,
+				FACB33D820DC780400CE2D9A /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = glukloader;
+			productName = glukloader;
+			productReference = FACB339A20DC69D600CE2D9A /* glukloader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FACB33AD20DC69D800CE2D9A /* glukloaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FACB33C520DC69D800CE2D9A /* Build configuration list for PBXNativeTarget "glukloaderTests" */;
+			buildPhases = (
+				FACB33AA20DC69D800CE2D9A /* Sources */,
+				FACB33AB20DC69D800CE2D9A /* Frameworks */,
+				FACB33AC20DC69D800CE2D9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FACB33B020DC69D800CE2D9A /* PBXTargetDependency */,
+			);
+			name = glukloaderTests;
+			productName = glukloaderTests;
+			productReference = FACB33AE20DC69D800CE2D9A /* glukloaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FACB33B820DC69D800CE2D9A /* glukloaderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FACB33C820DC69D800CE2D9A /* Build configuration list for PBXNativeTarget "glukloaderUITests" */;
+			buildPhases = (
+				FACB33B520DC69D800CE2D9A /* Sources */,
+				FACB33B620DC69D800CE2D9A /* Frameworks */,
+				FACB33B720DC69D800CE2D9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FACB33BB20DC69D800CE2D9A /* PBXTargetDependency */,
+			);
+			name = glukloaderUITests;
+			productName = glukloaderUITests;
+			productReference = FACB33B920DC69D800CE2D9A /* glukloaderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FACB339220DC69D600CE2D9A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Alex Normand";
+				TargetAttributes = {
+					FACB339920DC69D600CE2D9A = {
+						CreatedOnToolsVersion = 9.4.1;
+						SystemCapabilities = {
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+						};
+					};
+					FACB33AD20DC69D800CE2D9A = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = FACB339920DC69D600CE2D9A;
+					};
+					FACB33B820DC69D800CE2D9A = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = FACB339920DC69D600CE2D9A;
+					};
+				};
+			};
+			buildConfigurationList = FACB339520DC69D600CE2D9A /* Build configuration list for PBXProject "glukloader" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FACB339120DC69D600CE2D9A;
+			productRefGroup = FACB339B20DC69D600CE2D9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FACB339920DC69D600CE2D9A /* glukloader */,
+				FACB33AD20DC69D800CE2D9A /* glukloaderTests */,
+				FACB33B820DC69D800CE2D9A /* glukloaderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FACB339820DC69D600CE2D9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FACB33A820DC69D800CE2D9A /* LaunchScreen.storyboard in Resources */,
+				FACB33A520DC69D800CE2D9A /* Assets.xcassets in Resources */,
+				FACB33A320DC69D600CE2D9A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FACB33AC20DC69D800CE2D9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FACB33B720DC69D800CE2D9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FACB339620DC69D600CE2D9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FACB33A020DC69D600CE2D9A /* ViewController.swift in Sources */,
+				FACB339E20DC69D600CE2D9A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FACB33AA20DC69D800CE2D9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FACB33B320DC69D800CE2D9A /* glukloaderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FACB33B520DC69D800CE2D9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FACB33BE20DC69D800CE2D9A /* glukloaderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FACB33B020DC69D800CE2D9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FACB339920DC69D600CE2D9A /* glukloader */;
+			targetProxy = FACB33AF20DC69D800CE2D9A /* PBXContainerItemProxy */;
+		};
+		FACB33BB20DC69D800CE2D9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FACB339920DC69D600CE2D9A /* glukloader */;
+			targetProxy = FACB33BA20DC69D800CE2D9A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FACB33A120DC69D600CE2D9A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FACB33A220DC69D600CE2D9A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FACB33A620DC69D800CE2D9A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FACB33A720DC69D800CE2D9A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FACB33C020DC69D800CE2D9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FACB33C120DC69D800CE2D9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FACB33C320DC69D800CE2D9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = glukloader/glukloader.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9U5X56B973;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = glukloader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.glukit.glukloader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FACB33C420DC69D800CE2D9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = glukloader/glukloader.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9U5X56B973;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = glukloader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.glukit.glukloader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FACB33C620DC69D800CE2D9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = glukloaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.glukit.glukloaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/glukloader.app/glukloader";
+			};
+			name = Debug;
+		};
+		FACB33C720DC69D800CE2D9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = glukloaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.glukit.glukloaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/glukloader.app/glukloader";
+			};
+			name = Release;
+		};
+		FACB33C920DC69D800CE2D9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = glukloaderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.glukit.glukloaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = glukloader;
+			};
+			name = Debug;
+		};
+		FACB33CA20DC69D800CE2D9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = glukloaderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.glukit.glukloaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = glukloader;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FACB339520DC69D600CE2D9A /* Build configuration list for PBXProject "glukloader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FACB33C020DC69D800CE2D9A /* Debug */,
+				FACB33C120DC69D800CE2D9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FACB33C220DC69D800CE2D9A /* Build configuration list for PBXNativeTarget "glukloader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FACB33C320DC69D800CE2D9A /* Debug */,
+				FACB33C420DC69D800CE2D9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FACB33C520DC69D800CE2D9A /* Build configuration list for PBXNativeTarget "glukloaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FACB33C620DC69D800CE2D9A /* Debug */,
+				FACB33C720DC69D800CE2D9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FACB33C820DC69D800CE2D9A /* Build configuration list for PBXNativeTarget "glukloaderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FACB33C920DC69D800CE2D9A /* Debug */,
+				FACB33CA20DC69D800CE2D9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FACB339220DC69D600CE2D9A /* Project object */;
+}
