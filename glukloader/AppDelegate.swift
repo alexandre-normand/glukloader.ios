@@ -7,6 +7,20 @@
 //
 
 import UIKit
+import OAuth2
+
+let oauth2Settings = [
+    "client_id": GlukitSecrets.clientId,
+    "client_secret": GlukitSecrets.clientSecret,
+    "consumer_key": GlukitSecrets.clientId,
+    "consumer_secret": GlukitSecrets.clientSecret,
+    "authorize_uri": "https://glukit.appspot.com/authorize",
+    "token_uri": "https://glukit.appspot.com/token",
+    "scope": "",
+    "redirect_uris": ["x-glukloader://oauth/callback"],
+    "keychain": true,
+    ] as OAuth2JSON
+let oauth2 = OAuth2CodeGrant(settings: oauth2Settings)
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {

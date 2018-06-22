@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA93542720DCA48100C06278 /* Glukit.icns in Resources */ = {isa = PBXBuildFile; fileRef = FA93542620DCA48100C06278 /* Glukit.icns */; };
+		FA93542920DCA62E00C06278 /* GlukitSecrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA93542820DCA62E00C06278 /* GlukitSecrets.swift */; };
 		FACB339E20DC69D600CE2D9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACB339D20DC69D600CE2D9A /* AppDelegate.swift */; };
 		FACB33A020DC69D600CE2D9A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACB339F20DC69D600CE2D9A /* ViewController.swift */; };
 		FACB33A320DC69D600CE2D9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FACB33A120DC69D600CE2D9A /* Main.storyboard */; };
@@ -57,6 +59,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		FA93542620DCA48100C06278 /* Glukit.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Glukit.icns; sourceTree = "<group>"; };
+		FA93542820DCA62E00C06278 /* GlukitSecrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlukitSecrets.swift; sourceTree = "<group>"; };
 		FACB339A20DC69D600CE2D9A /* glukloader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = glukloader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FACB339D20DC69D600CE2D9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FACB339F20DC69D600CE2D9A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -109,6 +113,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FA93542520DCA44900C06278 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA93542620DCA48100C06278 /* Glukit.icns */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		FACB339120DC69D600CE2D9A = {
 			isa = PBXGroup;
 			children = (
@@ -136,6 +148,7 @@
 		FACB339C20DC69D600CE2D9A /* glukloader */ = {
 			isa = PBXGroup;
 			children = (
+				FA93542520DCA44900C06278 /* Supporting Files */,
 				FACB33CE20DC6A6E00CE2D9A /* glukloader.entitlements */,
 				FACB339D20DC69D600CE2D9A /* AppDelegate.swift */,
 				FACB339F20DC69D600CE2D9A /* ViewController.swift */,
@@ -143,6 +156,7 @@
 				FACB33A420DC69D800CE2D9A /* Assets.xcassets */,
 				FACB33A620DC69D800CE2D9A /* LaunchScreen.storyboard */,
 				FACB33A920DC69D800CE2D9A /* Info.plist */,
+				FA93542820DCA62E00C06278 /* GlukitSecrets.swift */,
 			);
 			path = glukloader;
 			sourceTree = "<group>";
@@ -288,6 +302,7 @@
 			files = (
 				FACB33A820DC69D800CE2D9A /* LaunchScreen.storyboard in Resources */,
 				FACB33A520DC69D800CE2D9A /* Assets.xcassets in Resources */,
+				FA93542720DCA48100C06278 /* Glukit.icns in Resources */,
 				FACB33A320DC69D600CE2D9A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -314,6 +329,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FACB33A020DC69D600CE2D9A /* ViewController.swift in Sources */,
+				FA93542920DCA62E00C06278 /* GlukitSecrets.swift in Sources */,
 				FACB339E20DC69D600CE2D9A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
