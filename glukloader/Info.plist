@@ -2,6 +2,17 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string>org.glukit.glukloader</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>x-glukloader</string>
+			</array>
+		</dict>
+	</array>
 	<key>NSHealthShareUsageDescription</key>
 	<string>We&apos;ll use your glucose data to estimate your a1c and provide you with a glukit score. Note that a copy of the data will be sent and stored on Glukit&apos;s servers for processing and web display.</string>
 	<key>CFBundleDevelopmentRegion</key>

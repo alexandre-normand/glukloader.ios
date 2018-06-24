@@ -49,6 +49,7 @@ class ViewController: UIViewController {
     func application(_ app: UIApplication,
                      open url: URL,
                      options: [UIApplicationOpenURLOptionsKey: Any] = [:]) -> Bool {
+        print("Handling redirect url...") 
         // you should probably first check if this is the callback being opened
         // if your oauth2 instance lives somewhere else, adapt accordingly
         oauth2.handleRedirectURL(url)
