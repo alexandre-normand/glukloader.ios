@@ -40,7 +40,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
-
-
+    
+    func application(_ app: UIApplication,
+                     open url: URL,
+                     options: [UIApplicationOpenURLOptionsKey: Any] = [:]) -> Bool {
+        
+        print("Handling redirect url... \(url)")
+        if "x-glukloader" == url.scheme {
+            if let vc = window?.rootViewController as? ViewController {
+                vc.oauth2.handleRedirectURL(url)
+                return true
+            }
+        }
+        return false
+    }
 }
 
